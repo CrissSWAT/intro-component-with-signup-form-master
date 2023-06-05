@@ -60,11 +60,18 @@ form{
   margin: 0.5rem;
   font-weight: bold;
   border-radius: 10px;
+  border-color: hsl(246, 25%, 77%);
+  border-style: solid;
 }
 .enviar{
   color: white;
   background-color: hsl(154, 59%, 51%);
- 
+  border-style: none;
+  border-color: none;
+  cursor: pointer;
+}
+.enviar:hover{
+  transform: scale(1.02);
 }
 .formulario a {
   font-weight: bold;
