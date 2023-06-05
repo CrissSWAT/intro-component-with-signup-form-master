@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("./images/bg-intro-mobile.png");
+  background-repeat: no-repeat;
+  background-color: hsl(0, 100%, 74%);
+  font-family: "Poppins", sans-serif;
+  margin: 0 1rem;
+}
+.contenedor {
+    padding: 0 1rem;
+}
+.contenedor1 {
+  color: white;
+}
+.contenedor1 h1{
+    padding: 1rem;
+    text-align: center;
+  
+}
+.contenedor1 p{
+    padding: 1rem 0rem 3rem 0;
+    text-align: center;
+}
+.promocion {
+  color: white;
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 10px;
+  box-shadow: 0 10px 18px hsl(249, 10%, 26%);
+}
+.promocion a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+.promocion p{
+    text-align: center;
+    padding: 1rem 3rem;
+}
+.formulario{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.formulario input{
+  padding: 1rem;
+  margin: 0.5rem;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.enviar{
+  color: white;
+  background-color: hsl(154, 59%, 51%);
+ 
+}
+.formulario a {
+  font-weight: bold;
+  color: hsl(0, 100%, 74%);
+  text-decoration: none;
+}
+.formulario p{
+    text-align: center;
+    font-size: 10px;
+    padding: 0.5rem 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  main{
+    background-image: url("./images/bg-intro-desktop.png");
+    background-repeat: no-repeat;
+  }
+  .contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .contenedor1{
+    justify-content: left;
+    padding: 1rem 1rem 1rem 2rem;
+  }
+  .contenedor1 h1{
+    padding: 0;
+    text-align: left;
+  }
+  .contenedor1 p{
+    text-align: left;
+  }
+  .contenedor2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .promocion{
+    width: 27rem;
+  }
+  .promocion a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+  .promocion p{
+      text-align: center;
+      
+  }
+}
+@media screen and (min-width: 1024px) {
+  .contenedor1{
+    padding: 1rem 2rem 0 3rem;
+  }
+  .contenedor1 h1{
+    text-align: left;
+    padding: 1rem 2rem 1rem 0;
+  }
+  .contenedor1 p{
+    text-align: left;
+  }
+  .contenedor2{
+    padding: 0 3rem 0 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .contenedor1{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem 0 13rem;
+  }
+  .contenedor1 h1{
+    text-align: left;
+    font-size: 50px;
+    
+  }
+  .contenedor1 p{
+    text-align: left;
+  }
+  .contenedor2{
+    padding: 0 13rem 0 0;
+  }
+}
