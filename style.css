@@ -63,6 +63,19 @@ form{
   border-color: hsl(246, 25%, 77%);
   border-style: solid;
 }
+.formulario input[type="text"], input[type="email"], input[type="password"]{
+  background-image: url(./images/icon-error.svg);
+  background-repeat: no-repeat;
+  background-position-x: 90%;
+  background-position-y: 50%;
+
+  
+}
+#nombre, #apellido, #email, #password{
+  background: none;
+  
+}
+
 .enviar{
   color: white;
   background-color: hsl(154, 59%, 51%);
@@ -83,6 +96,7 @@ form{
     font-size: 10px;
     padding: 0.5rem 2rem;
 }
+
 
 @media screen and (min-width: 768px) {
   main{
