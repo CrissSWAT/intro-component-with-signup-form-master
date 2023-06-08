@@ -23,6 +23,8 @@
   </head>
 
   <body>
+    <!-- <script type="module" src="validacion.js"></script> -->
+    <script type="module" src="validaciones2.js"></script>
     <main>
       <div class="contenedor">
         <div class="contenedor1">
@@ -45,26 +47,40 @@
             </p>
           </div>
           <div class="formulario">
-            <form id="formulario">
-              <input type="text" placeholder="First Name" name="nombre" id="nombre"/>
-
-              <p class="mensaje_error"></p>
-
-              <input type="text" placeholder="Last Name" name="apellido" id="apellido"/>
-
-              <p class="mensaje_error"></p>
-
-              <input type="email" placeholder="Email Address" name="email" id="email"/>
-
-              <p class="mensaje_error"></p>
-
-              <input type="password" placeholder="Password" name="password" id="password"/>
-
-              <p class="mensaje_error"></p>
+            <form id="formulario1">
+              <input
+                type="text"
+                placeholder="First Name"
+                name="nombre"
+                id="nombre"
+              />
+              <p id="error-nombre" class="no-visible" >Nombre no valido</p>
+              <input
+                type="text"
+                placeholder="Last Name"
+                name="apellido"
+                id="apellido"
+              />
+              <p id="error-apellido"></p>
+              <input
+                type="email"
+                placeholder="Email Address"
+                name="email"
+                id="email"
+              />
+              <p id="error-email"></p>
+              <input
+                type="password"
+                placeholder="Password"
+                name="password"
+                id="password"
+              />
+              <p id="error-password"></p>
               <input
                 type="submit"
                 value="Claim your free trial"
                 class="enviar"
+                id="btn-enviar"
               />
               <p>
                 By clicking the button, you are agreeing to our<a
