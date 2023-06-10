@@ -61,16 +61,15 @@ form {
   border-color: hsl(246, 25%, 77%);
   border-style: solid;
 }
-.visible{
-  visibility:visible;
+.visible {
+  visibility: visible;
   color: hsl(0, 100%, 74%);
-
 }
-.no-visible{
+.no-visible {
   visibility: hidden;
 }
 
-form p{
+form p {
   display: flex;
   flex-direction: row;
   justify-content: right;
