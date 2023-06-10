@@ -61,25 +61,21 @@ form {
   border-color: hsl(246, 25%, 77%);
   border-style: solid;
 }
-/* .formulario input[type="text"], input[type="email"], input[type="password"]{
-  background-image: url(./images/icon-error.svg);
-  background-repeat: no-repeat;
-  background-position-x: 90%;
-  background-position-y: 50%;
-
-  
-} */
 .visible{
   visibility:visible;
+  color: hsl(0, 100%, 74%);
+
 }
 .no-visible{
   visibility: hidden;
 }
-.active-error {
-  color: red;
-  display: block !important;
-}
 
+form p{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+}
 .nombre-error {
   background-image: url(./images/icon-error.svg);
   background-repeat: no-repeat;
